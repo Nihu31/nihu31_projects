@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #ecbdcea9; /* Background color */
+            color: #1060a2d2; /* Text color */
+            font-size: 18px; /* Base font size for the body text */
+        }
+        .about-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 100px 0;
+        }
+        .about-section .content {
+            max-width: 800px;
+            text-align: left;
+            margin-left: 20px;
+            font-size: 20px; /* Font size for the content text */
+        }
+        .about-section img {
+            border-radius: 70%;
+            max-width: 400px;
+        }
+        h2 {
+            color: #07396a; /* Heading color */
+            font-size: 42px; /* Font size for the heading */
+        }
+
+        body {
+    background-color: #eac0cfa9; /* Background color */
+    color: #1060a2d2; /* Text color */
+    font-size: 18px; /* Base font size */
+}
+
+h2 {
+    color: #07396a; /* Heading color */
+    font-size: 36px; /* Font size for the heading */
+}
+
+.projects-section {
+    padding: 50px 0;
+}
+
+.projects-section .card {
+    border: none; /* Remove card border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.projects-section .card:hover {
+    transform: translateY(-10px); /* Lift the card slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Intensify the shadow on hover */
+}
+
+.projects-section .card-img-top {
+    border-radius: 10px; /* Slightly round the corners of the image */
+}
+
+.projects-section .card-title {
+    font-size: 20px; /* Font size for the project title */
+    font-weight: bold;
+    color: #07396a; /* Title color */
+}
+
+.projects-section .card-text {
+    font-size: 16px; /* Font size for the project description */
+    color: #1060a2d2; /* Text color */
+}
+
+.projects-section .card-footer {
+    background-color: transparent; /* Remove background from footer */
+    border-top: none; /* Remove footer border */
+}
+
+.projects-section .card-link {
+    font-weight: bold;
+    color: #07396a; /* Link color */
+    transition: color 0.2s ease;
+}
+
+.projects-section .card-link:hover {
+    color: #d33d74; /* Change link color on hover */
+}
+
+
+.skills-section {
+    background-color: #f8f9fa; /* Light background for the skills section */
+    padding: 60px 0;
+}
+
+.skill-item h5 {
+    color: #34728b; /* Color for the skill titles */
+    font-weight: 700; /* Make the skill titles bold */
+    margin-bottom: 15px;
+}
+
+.skill-item p {
+    color: #555; /* Color for the skill description text */
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.skill-item a {
+    font-weight: 700;
+    color: #0069d9; /* Bootstrap's primary color for the link */
+}
+
+.skill-item a:hover {
+    color: #004085; /* Darker shade of Bootstrap's primary color on hover */
+    text-decoration: underline;
+}
+
+.contact-section {
+    background-color: #000000;
+    color: #fff;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.contact-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.social-icons {
+    margin-top: 2rem;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.social-icons p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.linkedin-icon {
+    background-color: #fff;
+}
+
+    </style>
+    
+</head>
+<body>
+
+<section class="about-section container">
+    <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+            <img src="images/about/WhatsApp Image 2024-08-13 at 1.10.57 PM.jpeg" alt="About Image" class="img-fluid">
+        </div>
+        <div class="col-md-8 content">
+            <h2>About Me</h2>
+            <p>Hello! I’m Niharika, a Machine Learning Engineer with a deep passion for exploring cutting-edge AI technologies. My journey into the world of AI began during my 3rd year of college, coinciding with the rapid rise of AI innovations. I am driven by a desire to create impactful solutions that empower people and contribute positively to society.</p>
+            <p>When I’m not working, you can often find me on the badminton court. I’m always eager to connect with like-minded individuals and explore new opportunities for growth and collaboration.</p>
+        </div>
+    </div>
+</section>
+
+<section class="projects-section container my-5">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Project 1 -->
+        <div class="col">
+            <div class="card h-100 text-center">
+                <img src="images/projects/idp.jpg" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                    <h5 class="card-title">Intelligent Document Processing</h5>
+                    <!-- <p class="card-text">Aided in the development of Transfer Learning on a pre-trained YOLOv8m model for intelligent document processing, and enabled the conversion of 2D house models into 3D representations with 90% accuracy.</p> -->
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="card-link">Summary</a>
+                    <a href="#" class="card-link">Source Code</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col">
+            <div class="card h-100 text-center">
+                <img src="images/projects/donut.jpg" class="card-img-top" alt="Project 2">
+                <div class="card-body">
+                    <h5 class="card-title">Text Processing of Invoices</h5>
+                    <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisi erat.</p> -->
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="card-link">Summary</a>
+                    <a href="#" class="card-link">Source Code</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col">
+            <div class="card h-100 text-center">
+                <img src="images/projects/ecg.jpg" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                    <h5 class="card-title">Arrhythmia Detection in 12-Lead ECG</h5>
+                    <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisi erat.</p> -->
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="card-link">Summary</a>
+                    <a href="#" class="card-link">Source Code</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="col">
+            <div class="card h-100 text-center">
+                <img src="images/projects/diabetes.jpg" class="card-img-top" alt="Project 4">
+                <div class="card-body">
+                    <h5 class="card-title">Integrated Embedded System for Detecting Diabetes Mellitus</h5>
+                    <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisi erat.</p> -->
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="card-link">Summary</a>
+                    <a href="#" class="card-link">Source Code</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="col offset-md-4">
+            <div class="card h-100 text-center">
+                <img src="images/projects/opencv project.png" class="card-img-top" alt="Project 5">
+                <div class="card-body">
+                    <h5 class="card-title">Image Detection and Colour Analysis System</h5>
+                    <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisi erat.</p> -->
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="card-link">Summary</a>
+                    <a href="#" class="card-link">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills-section container my-5">
+    <h2 class="text-center mb-5">Skills</h2>
+    <div class="row text-center">
+        <div class="col-md-3">
+            <div class="skill-item">
+                <img src="images/skills/python.jpg" class="img-fluid mb-3" alt="Python">
+                <h5>Python</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
+                <!-- <a href="#" class="btn btn-link">Link to course or bootcamp</a> -->
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="skill-item">
+                <img src="images/skills/ML.jpg" class="img-fluid mb-3" alt="Machine Learning">
+                <h5>Machine Learning</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
+                <!-- <a href="#" class="btn btn-link">Link to course or bootcamp</a> -->
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="skill-item">
+                <img src="images/skills/sql.jpg" class="img-fluid mb-3" alt="SQL">
+                <h5>SQL</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
+                <!-- <a href="#" class="btn btn-link">Link to course or bootcamp</a> -->
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="skill-item">
+                <img src="images/skills/cv.jpg" class="img-fluid mb-3" alt="Computer Vision">
+                <h5>Computer Vision</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
+                <!-- <a href="#" class="btn btn-link">Link to course or bootcamp</a> -->
+            </div>
+        </div>
+        <div class="col-md-3 offset-md-4">
+            <div class="skill-item">
+                <img src="images/skills/nlp.jpg" class="img-fluid mb-3" alt="Natural Language Processing">
+                <h5>Natural Language Processing</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
+                <!-- <a href="#" class="btn btn-link">Link to course or bootcamp</a> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-section py-5">
+    <div class="container text-center">
+        <h2 class="mb-4">Contact Me</h2>
+        <div class="contact-info d-flex justify-content-center mb-4">
+            <div class="me-5">
+                <img src="icons/mail.png" alt="Email" class="contact-icon">
+                <span>niharika.singavajhala10@gmail.com</span>
+            </div>
+            <div>
+                <img src="icons/phone.png" alt="Phone" class="contact-icon">
+                <span>+919398576487</span>
+            </div>
+        </div>
+        <div class="social-icons d-flex justify-content-center">
+            <div class="me-4">
+                <a href="https://www.linkedin.com/in/niharika-singavajhala-b07078210/" target="_blank">
+                    <img src="icons/linkedin.png" alt="LinkedIn" class="social-icon linkedin-icon">
+                    <p>LinkedIn</p>
+                </a>
+            </div>
+            <div class="me-4">
+                <a href="https://github.com/Nihu31" target="_blank">
+                    <img src="icons/github.jpg" alt="GitHub" class="social-icon">
+                    <p>GitHub</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
